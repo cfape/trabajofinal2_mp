@@ -54,7 +54,12 @@ plt.hist(ventas_mr2['Ventas'], bins=10, color='skyblue', edgecolor='black')
 plt.title('Histograma de Ventas - Misha Rastrera')
 plt.xlabel('Monto de Venta (Soles)')
 plt.ylabel('Frecuencia')
+
+# Guardar antes de mostrar
+plt.savefig('histograma_ventas.png', dpi=300, bbox_inches='tight') 
 plt.show()
+
+
 
 # Gráfico de dispersión (Precio vs Cantidad)
 plt.figure(figsize=(10, 6))
@@ -63,4 +68,7 @@ plt.title('Dispersión: Relación Precio vs Cantidad')
 plt.xlabel('Precio (Soles)')
 plt.ylabel('Cantidad Vendida')
 plt.grid(True)
+
+# Guardar antes de mostrar
+plt.savefig('dispersion_precio_cantidad.png', dpi=300, bbox_inches='tight')
 plt.show()
