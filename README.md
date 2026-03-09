@@ -1,4 +1,4 @@
-# 🌿 Análisis de Ventas - Misha Rastrera S.A.C.
+# 🌿 Análisis de Ventas 
 
 Este proyecto forma parte del **Trabajo Final 2 del curso de Módulos y Paquetes para Machine Learning** 
 
